@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href='https://css.gg/play-button-o.css' rel='stylesheet'>
+    <link href='https://css.gg/play-stop-o.css' rel='stylesheet'>
+    <link href='https://css.gg/play-forwards.css' rel='stylesheet'>
+    <link href='https://css.gg/play-backwards.css' rel='stylesheet'>
+    
+    <title>SpotiFur</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <div class="profile-1">
+          <img src="img/pp.png" alt="" style="width: 30px; height: 30px" />
+          <h4 >Ayşe</h4>
+          <img src="img/icon.png" id="icon-person-info" alt="" style="width: 12px; height: 12px" />
+        </div>
+        <div id="person-info" class="passife">
+          <h5>Kulanıcı: Ayşe</h5>
+          <h5>Tür:Premium</h5>
+        </div>
+
+        <hr />
+
+        <div class="library">
+          <h3>Kütüphane</h3>
+          <h4><a href="#" id="1">Calum Scot</a></h4>
+          <h4><a href="#" id="2">By Larin</a></h4>
+          <h4><a href="#" id="3">Taylor Swift</a></h4>
+          <h4><a href="#" id="4">Burak Yeter</a></h4>
+        </div>
+        <hr />
+        <div class="song-list">
+          <p><a href="" id="5">Devi Lacoota</a></p>
+          <p><a href="" id="6"> Edwige Lauern</a></p>
+          <p><a href="" id="7">Swedish Houe</a></p>
+          <p><a href="" id="8">Erwin Arneald</a></p>
+        </div>
+        <hr />
+        <div class="song-queue">
+          <h3 id="queue">Sıralama</h3>
+          <p><a href=""> turn off the lighta</a></p>
+          <p><a href="" >red taylor</a></p>
+          <p><a href="">until now</a></p>
+        </div>
+      </div>
+      <div class="main">
+        <div class="border">
+             <div class="header-img">
+                 <img src="img/headerimg1.png" alt="">
+                 <img src="img/headerimg2.png" alt="">
+                 <img src="img/headerimg3.png" alt="">
+             </div>
+            <h3 style="margin-top:20px">Son Çalınanlar</h3>
+                  <div class="row-song">
+                   
+                  </div>
+             <h3 style="margin-top: 20px;">senin için</h3>
+                <div class="row-song">
+                </div>
+                <div class="footer">
+                  <div id="song-info" style="margin-right: 8px; margin-bottom: -20px;"><img src="img/Rectangle1.png"   id="song-info-img"
+                     alt="" style="width: 50px; height: 50px; border-radius: 10px;  ">
+                    <div> <h3  id="song-info-name" style="color: #1ED760;">Calum Scot</h3>
+                      <h5  id="song-info-writer" style="color: rgba(153, 153, 153, 1);">Where Are You
+                      </h5></div>
+                  </div>
+                  <div class="footer-midle"> 
+                    <div class="controller">
+                      <i class="gg-play-backwards"  id="back" ></i>
+                      <i class="gg-play-button-o" id="play"></i>
+                      <i class="gg-play-forwards" id="skip"></i>
+                 </div>
+                       <div id="song-progress-bar">
+                          <span id="current-time" style="margin-right: 10px">0:00</span>
+                          <input type="range" min="0" max="100" value ="0" id="progresbar" style="position: relative;">
+                         
+                          <audio src="music/music1.mp3" id="music"></audio>
+                           <span id="song-duration" style="margin-left: 10px ; margin-bottom: 1px;">0:00</span>
+                        </div> 
+                    </div>
+                 
+               
+
+
+                </div>
+           </div>
+      </div>
+            <div id="spotifayImg"><img src="img/spotifayImg.png" alt=""></div>
+    </div>
+       
+      </div>
+    
+    </div>
+    
+  </body>
+
+  <script src="js.js"></script>
+</html>
